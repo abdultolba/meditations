@@ -1,0 +1,23 @@
+{
+  "name": "meditations",
+  "version": "1.0.0",
+  "description": "Get specific or random quotes and passages from the Stoic text Meditations by Marcus Aurelius.",
+  "main": "src/index.js",
+  "scripts": {
+    "check-coverage": "nyc npm run test",
+    "test": "mocha src/index.test.js -w"
+  },
+  "keywords": [
+    "stoic",
+    "stoicism"
+  ],
+  "author": "Abdulrahman Tolba <abdultolba@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "unique-random-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  }
+}
