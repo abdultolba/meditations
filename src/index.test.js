@@ -11,7 +11,7 @@ describe("meditations", function () {
   describe("retrieve", function () {
     it("should return a specified quote from meditations", function () {
       let quote = meditations.retrieve(1,1);
-      expect(quote).to.equal("From my grandfather Verus I learned good morals and the government\nof my temper. ");
+      expect(quote).to.equal("From my grandfather Verus I learned good morals and the government of my temper. ");
     });
 
     it("should return an error if book number is out of bounds", function(){
